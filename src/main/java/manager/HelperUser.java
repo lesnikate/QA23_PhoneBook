@@ -69,4 +69,9 @@ public void submitLogin(){
                        "No Contacts here!"));
     }
 
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+    }
 }
